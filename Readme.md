@@ -19,7 +19,6 @@ This project implements a monitoring system with two services, **Service A** and
     - Overall uptime, average, minimum, and maximum response times since service start.
 - Saves statistics to JSON files every 5 minutes:
     - File hierarchy: `data/<day>/<hour>/<ISO8601-timestamp>.json`.
-    - Data older than 2 days is automatically deleted.
 - Provides an API endpoint (`/stats`) to retrieve real-time statistics.
 
 ---
